@@ -1,0 +1,40 @@
+
+ dn-RAT
+ =======
+ Remote Administration Tool using UNIX sockets in C programming language.
+ For educational purposes only.
+
+ Compilation
+ -----------
+ · UNIX - GNU/Linux
+	Server: 
+	Compile with:
+		cd server
+		make [CFLAGS='-D[OPTION]['] [-D[OTHER_OPTION]']
+		Run with: ./rat-server
+
+	Client:
+	Compile with:
+		cd client
+		make [CFLAGS='-D[OPTION]['] [-D[OTHER_OPTION]']
+		Run with: ./rat-client
+
+ · Window$
+	NOT YET
+
+ Make options
+ ------------
+ To enable this features, you need run make as:
+	make [CFLAGS='-D[OPTION]['] [-D[OTHER_OPTION]']
+
+
+ 	DEBUG (server and client)
+ 	Enable debug output, showing variable sizes or values.
+
+	CHECK_ARGS (client only)
+	Enable output program arguments.
+
+	MUTIARCH_DEBUG (client only)
+	Enable output of unsigned and pointer datatype sizes and based on OS 
+	architecture type (AMD64 or i386).
+

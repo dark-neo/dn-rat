@@ -1,0 +1,25 @@
+
+2014-09-24 : 0.0.10pre-alpha 
+==========
+	* All output messages is handle on client. Server never show output
+	  messages (except runtime errors. However, in next releases, this
+	  outputs will only ocurrs when -DDEBUG flag is set on build-time.
+	* Commands send to server are not perfect. For example, on UNIX, the
+	  'ls' command don't output all files on directory at once. Other 
+	  commands are not tested yet.
+	* By default, the connection port is 6666. However, it can be changed
+	  from command line when you run the server program (it's a feature).
+
+2014-09-19 : 0.0.5pre-alpha
+==========
+	* Add "4-clause BSD" license for the project. The project will be
+	  reamin open-source project BUT, if you use some code of this project,
+	  you MUST add any reference to original source code in all
+	  advertising material (See LICENSE for further details).
+
+2014-09-07 : 0.0.5pre-alpha
+==========
+	* Stablish connection between server and client.
+	* Client is able to send data to server. Server send response message
+	  to client when this ocurrs.
+
